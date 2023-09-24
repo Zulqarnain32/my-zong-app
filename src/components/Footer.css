@@ -1,0 +1,25 @@
+.footer-container{
+    height: 60px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(248, 248, 248);
+    /* background-color: var(--parrot); */
+    /* color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 3;
+    /* color: black; */
+}
+.f-icon{
+   font-size: 25px;
+}
+.footer-icon-name{
+    color: var(--grey);
+    font-size: 10px;
+    margin-top: 2px;
+}

@@ -1,0 +1,238 @@
+:root{
+    --pink:#e40076;
+    --parrrot:#90d011;
+    --grey:rgb(172, 168, 168);
+  }
+.social-pack-box{
+    background-color: rgb(245, 245, 245);
+    height: 100vh;
+    padding: 20px;
+    position: relative;
+}
+.usage-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.social-pack{
+    /* height: 100px; */
+    width: 90px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 2px 2px 6px 0px var(--grey);
+    text-align: center;
+    padding: 7px 10px;
+    /* color: #fff; */
+}
+.usage-icon{
+    color: var(--parrrot);
+}
+.pack-name{
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.mbs-left{
+    color: var(--pink);
+    font-weight: 700;
+}
+.mbs-left span{
+    color: black;
+}
+.subscription{
+    margin-top: 30px;
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+.monthly-whatsapp{
+    /* height: 200px; */
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px -5px var(--grey);
+    padding: 20px;
+    position: relative;
+    border-radius: 14px;
+}
+.month{
+    font-weight: 600;
+    font-size: 14px;
+}
+.expiry{
+    color: var(--grey);
+    font-size:11px;
+    margin-top: 4px;
+}
+.pck-price{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 14px;
+    color: var(--pink);
+    font-weight: 700;
+}
+.recharge{
+    position: absolute;
+    right: 20px;
+    top: 39px;
+    font-size: 11px;
+    color: var(--grey);
+}
+.internet-data{
+    /* position: absolute; */
+    /* top: 100px; */
+    /* left: 20px; */
+    margin-top: 20px;
+    font-size: 14px;
+}
+.use-mbs{
+    margin-top: 3px;
+    font-size: 11px;
+    color: var(--grey);
+}
+.another-indicator{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    height: 4px;
+    width: 70px;
+    background-color: #e491bc;
+    border-radius: 4px;
+    
+}
+.another-indicator::before{
+    position: absolute;
+    content: "";
+    top: -1.3px;
+    left: 0;
+    height: 6px;
+    width: 48%;
+    background-color: var(--pink);
+    border-radius: 7px;
+}
+.used{
+    color: var(--grey);
+    position: absolute;
+    right:20px;
+    top: 90px;
+    font-size: 11px;
+}
+.usage-btns{
+    /* background-color: rgb(174, 163, 163); */
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+}
+.unsubscribe,.resubscribe{
+    height: 30px;
+    width: 110px;
+    background-color: var(--parrrot);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+.resubscribe{
+    background-color: var(--pink);
+}
+.star-btn{
+    height: 33px;
+    width: 36px;
+    color: var(--parrrot);
+    line-height: 33px;
+    border-radius: 4px;
+    background-color: rgb(227, 227, 227);
+    border: none;
+    padding-top: 3px;
+    font-size: 20px;
+}
+.daily-reward{
+    /* height: 170px; */
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px -5px var(--grey);
+    margin-top: 20px;
+    border-radius: 14px;
+    padding: 20px;
+    position: relative;
+}
+.str{
+    text-align: center;
+    margin-top: 12px;
+}
+
+.and::before{
+    width: 80%;
+    top: -1px;
+}
+.usage-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+/* ================== */
+
+.loader{
+    height: 60px;
+    width: 120px;
+    /* background-color: rgb(227, 227, 227); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+  }
+  .loader .pink{
+    background-color: var(--pink);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: animatepink 1s linear infinite;
+    animation-direction: alternate;
+  }
+  .loader .green{
+    background-color: var(--parrrot);
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: animategreen 1s linear infinite;
+    animation-direction: alternate;
+  }
+  @keyframes animatepink {
+     0%{
+       left:50px;
+     }
+     
+     100%{
+      left: 0;
+     }
+  }
+  @keyframes animategreen {
+    0%{
+      right:60px;
+    }
+    
+    100%{
+     right: 0;
+    }
+  }

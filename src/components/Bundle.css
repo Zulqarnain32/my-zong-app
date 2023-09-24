@@ -1,0 +1,43 @@
+.bundle-container{
+  height: 60px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 6px;
+}
+.make-bundle{
+    height: 100%;
+    width: 49%;
+    background-color: rgb(94, 25, 163);
+    /* border-radius: 16px; */
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    font-weight: 700;
+    color: #fff;
+}
+.my-zong{
+    height: 100%;
+    width: 49%;
+    background-color: var(--pink);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-weight: 700;
+    color: #fff;
+    justify-content: space-between;
+}
+
+
+.bundle-icon{
+    color: #fff;
+    margin-left: 5px;
+    font-size: 27px; 
+}

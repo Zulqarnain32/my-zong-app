@@ -1,0 +1,123 @@
+:root{
+    --pink:#e40076;
+    --parrrot:#90d011;
+    --grey:rgb(172, 168, 168);
+  }
+.footer-bundle{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    padding: 20px 0;
+}
+.footer-head{
+    width: 90%;
+    margin: 0px auto;
+    box-shadow: 2px 2px 6px -3px var(--grey);
+}
+.all-cate{
+   width: 90%;
+   margin: 20px auto;
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-between;
+   font-size: 18px;
+   padding: 5px 6px;
+   color: var(--pink);
+   box-shadow: 2px 2px 6px -4px var(--grey);
+}
+.bundle-package{
+    /* height: 200px; */
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 2px 2px 6px -2px var(--grey);
+    padding-bottom: 10px;
+}
+.new{
+    font-size: 13px;
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    height: 30px;
+    width: 80px;
+    background-color: var(--pink);
+    color: #fff;
+    text-align: center;
+    padding-left: 10px;
+    line-height: 30px;
+    border-top-right-radius: 7px;
+}
+.new::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 30px;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: -22px;
+    transform: rotate(45deg);
+}
+.bottom{
+    position: absolute;
+    content: "";
+    right:-10px;
+    border-bottom-right-radius: 5px;
+    top: 40px;
+    background-color: var(--pink);
+    height: 10px;
+    width: 10px;
+}
+.ano{
+    padding: 42px 10px;
+    text-align: left;
+}
+.eight{
+    color: var(--parrrot);
+}
+.sm{
+    font-size: 11px;
+}
+.one-gb{
+    text-align: center;
+}
+.bundle-btns{
+    width: 100%;
+    padding: 10px 20px ;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+.bundle-btns .sb-package{
+    width: 240px;
+}
+.dd{
+    height: 30px;
+    background-color: rgb(236, 232, 232);
+    color: #fff;
+    font-size: 11px !important;
+    width: 30px;
+    border-radius: 5px;
+    padding: 4px;
+}
+.dd:hover{
+    color: var(--parrrot);
+}
+.gr{
+    background-color: var(--parrrot);
+}
+.grw{
+    color: var(--parrrot);
+}
+.congrats{
+    background-color: #cecece;
+}
+.center{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 12px;
+}
+.lefty{
+    text-align: left;
+}

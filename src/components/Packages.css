@@ -1,0 +1,122 @@
+:root{
+    --pink:#e40076;
+    --parrrot:#90d011;
+    --grey:rgb(172, 168, 168);
+  }
+  .package-parent-container{
+    /* background-color: #fff; */
+    display: flex;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    width: 90%;
+    margin:0 auto;
+    height: auto;
+    padding: 10px 0;
+  }
+.package-container{
+    width: 340px;
+    /* width: 100%; */
+    object-fit: cover;
+    flex: 0 0 100px;
+    scroll-snap-align: center;
+    /* height: 200px; */
+    /* width: 90%; */
+    margin:0px auto !important;
+    /* background-color: red; */
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px 0px var(--grey);
+}
+.package-title{
+    height: 60px;
+    width: 100%;
+    background-color: var(--parrrot);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 0 20px;
+}
+.hot-offer{
+    background-color: rgb(240, 184, 81);
+    /* height: 10px; */
+    font-size: 10px;
+    display: inline-block;
+    padding: 2px 4px;
+    color: #fff;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.weekly{
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}
+.offers{
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--grey);
+    padding-bottom: 5px;
+}
+.package-box{
+    width: 75px;
+    height: 100%;
+    /* background-color: yellow; */
+    text-align: center;
+}
+.type{
+    color: var(--grey);
+    font-size: 12px;
+}
+.package-icon{
+    color: var(--parrrot);
+    font-weight: 900;
+    margin-top: 10px;
+    font-size: 23px;
+}
+.gb{
+    font-weight: 700;
+    font-size: 13px;
+    margin: 4px 0;
+}
+.package-price{
+    /* background-color: blue; */
+    /* height: 50px; */
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px 10px;
+    margin-top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+.price{
+    color: var(--parrrot);
+    font-weight: 700;
+}
+.price span{
+    font-size: 9px;
+    color: var(--grey);
+    margin-left: 1px;
+    
+}
+.validity{
+    color: var(--grey);
+    margin-top: 3px;
+    font-size: 13px;
+}
+.validity span{
+    font-size: 9px;
+}
+.sb-package{
+    height: 32px;
+    width: 100px;
+    background-color: var(--pink);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}

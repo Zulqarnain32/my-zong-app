@@ -1,0 +1,52 @@
+.more-app-container{
+    padding: 20px 17px;
+    background-color: rgb(245, 245, 245);
+}
+:root{
+    --pink:#e40076;
+    --parrrot:#90d011;
+    --grey:rgb(172, 168, 168);
+  }
+.package-data{
+    margin-top: 20px;
+  height: 270px;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 2px 2px 8px -3px var(--grey);
+}
+.flex-container{
+    margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 200px;
+  row-gap: 20px;
+}
+.package{
+    text-align: center;
+    padding-top: 13px;
+    height: 90px;
+    width: 90px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px -3px var(--grey);
+    color: var(--grey);
+}
+.more-apps-listing{
+    padding: 20px 13px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 6px -2px var(--grey);
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+.more-icon{
+    color: var(--parrrot);
+    font-size: 35px;
+    margin-bottom: 6px;
+
+}

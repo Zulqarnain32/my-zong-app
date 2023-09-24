@@ -1,0 +1,29 @@
+.search-container{
+    height: calc(100vh - 115px);
+    padding: 10px 30px;
+
+}
+:root{
+    --pink:#e40076;
+    --parrrot:#90d011;
+    --grey:rgb(172, 168, 168);
+  }
+.input{
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    position: relative;
+}
+.input input{
+    height: 45px;
+    width: 100%;
+    border-radius: 30px;
+    border: 2px solid var(--parrrot);
+    padding: 0 15px;
+    
+}
+.cancel{
+    position: absolute;
+    right: 14px;
+    top: 12px;
+}

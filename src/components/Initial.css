@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.initial-container{
+    height: 100vh;
+    background-color: #fff;
+}
+.initialimg{
+    height:90vh;
+    width: 360px;
+    object-fit: cover;
+}

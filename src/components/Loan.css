@@ -1,0 +1,117 @@
+:root{
+    --pink:#e40076;
+    --parrrot:#90d011;
+    --grey:rgb(172, 168, 168);
+  }
+.loan-container{
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+    /* height: 140vh; */
+}
+
+.bronze-status-container{
+  margin-top: 20px;
+  /* height: 100px; */
+  display: flex;
+  /* background-color: yellow; */
+}
+.bronze-status-container img{
+  width: 60px;
+  margin-right: 10px;
+}
+.status{
+  font-size: 21px;
+}
+.status span{
+  font-weight: 700;
+}
+.bronze-content p{
+  font-size: 11px;
+  margin-top: 5px;
+  line-height: 16px;
+}
+.loan-btns{
+  margin-top: 10px;
+  height: 70px;
+  width: 100%;
+  /* background-color: rgb(161, 150, 150); */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.available-loan, .return-loan{
+  width: 47%;
+  background-color: #fff;
+  border-radius: 7px;
+  /* height: 55px; */
+  padding:10px;
+  position: relative;
+}
+.avail{
+  font-size: 11px;
+  font-weight: 600;
+  /* padding-top: 12px; */
+}
+.detail{
+  color: var(--pink);
+  font-size: 9px;
+  padding-top: 4px;
+}
+.loan-price{
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  font-size: 10px;
+  color: var(--parrrot);
+}
+
+.loan-types{
+  margin-top: 20px;
+  height: 430px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding-top: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.head-doulble{
+  display: flex;
+  justify-content: space-between;
+}
+.loan-amount{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--parrrot);
+  font-size: 11px;
+}
+.service-fee{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 11px;
+  font-size: 11px;
+}
+.detucted{
+  margin-top: 17px;
+  font-size: 11px;
+}
+.bitcoin{
+  color: rgb(165, 165, 20);
+}
+.avail-loan{
+  padding: 7px 0;
+  background-color: var(--pink);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 7px;
+  width: 100%;
+  margin-top: 12px;
+  border: none;
+  font-size: 12px;
+}
+.single-loan{
+  margin-top: 35px;
+}
+.head-doulble div{
+  font-weight: 600;
+}

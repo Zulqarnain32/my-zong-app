@@ -1,0 +1,29 @@
+.notification-container{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding: 40px 20px;
+}
+.message{
+    background-color: #fff;
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px -3px var(--grey);
+    margin-bottom: 20px;
+}
+.msg-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+.msg-time{
+    font-size: 11px;
+    color: var(--grey);
+    margin-top: 3px;
+    margin-bottom: 6px;
+}
+
+.msg-detail{
+    font-size: 14px;
+    margin-top: 10px;
+}
